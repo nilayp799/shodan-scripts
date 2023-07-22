@@ -24,14 +24,3 @@ pip install shodan
 ## Using the Scripts
 
 Clone or download this repository to your local machine to access the scripts. Before running any script, ensure you have set up the Shodan API key as an environment variable or configure it within the scripts themselves.
-
-Here's a brief overview of the available scripts:
-
-### 1. `shodan_search.py`
-
-This script allows you to perform a simple search on Shodan. It takes a search query as input and returns a list of results containing information about the devices or services matching your query.
-
-**Usage:**
-
-```bash
-python shodan_search.py <search_query>
