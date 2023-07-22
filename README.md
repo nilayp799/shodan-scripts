@@ -16,3 +16,19 @@ To make the most of these scripts, you'll need to have Python and the Shodan Pyt
 
 2. **Install Shodan Python Library:** Open a terminal or command prompt and run the following command to install the Shodan library:
 
+3. **Get Shodan API Key:** To use these scripts, you'll need a Shodan API key. If you don't have one, sign up for a free account at [https://www.shodan.io/](https://www.shodan.io/) and generate your API key from the dashboard.
+
+## Using the Scripts
+
+Clone or download this repository to your local machine to access the scripts. Before running any script, ensure you have set up the Shodan API key as an environment variable or configure it within the scripts themselves.
+
+Here's a brief overview of the available scripts:
+
+### 1. `shodan_search.py`
+
+This script allows you to perform a simple search on Shodan. It takes a search query as input and returns a list of results containing information about the devices or services matching your query.
+
+**Usage:**
+
+```bash
+python shodan_search.py <search_query>
