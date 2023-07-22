@@ -15,6 +15,9 @@ To make the most of these scripts, you'll need to have Python and the Shodan Pyt
 1. **Install Python:** If you don't have Python installed, download the latest version from the [official Python website](https://www.python.org/downloads/) and follow the installation instructions for your operating system.
 
 2. **Install Shodan Python Library:** Open a terminal or command prompt and run the following command to install the Shodan library:
+  ```bash
+pip install shodan
+```
 
 3. **Get Shodan API Key:** To use these scripts, you'll need a Shodan API key. If you don't have one, sign up for a free account at [https://www.shodan.io/](https://www.shodan.io/) and generate your API key from the dashboard.
 
